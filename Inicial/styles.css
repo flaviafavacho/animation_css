@@ -1,0 +1,49 @@
+header{
+    background-color: rgb(12, 12, 12);
+    width: 99vw;
+    height: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(245, 245, 246);
+    font-size: xx-large;
+    font-style:oblique;
+    padding: 40px;
+    padding-left: 500px;
+}  
+    
+    
+
+
+body{
+    background-color: rgb(70, 43, 226);
+       
+    
+}
+button{
+    display: flex;
+    width:120 ;
+    background-color: rgb(6, 184, 243);
+    color: aquamarine;
+    
+}
+
+a{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-style: oblique;
+    padding-left: 10px;
+   
+    padding-top: 3px;
+    
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    
+
+}
+
+

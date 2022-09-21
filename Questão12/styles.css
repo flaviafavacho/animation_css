@@ -1,0 +1,56 @@
+.agrupar{
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+}
+
+header a{
+    color:rgb(75, 32, 218);
+    text-decoration: none;
+    padding-left: 20px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+}
+
+.formulario{
+    border-radius: 20%;
+    background-color:#1907df;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    padding: 45px 60px;
+    animation-name: direction;
+    animation-duration:3s;
+    animation-delay:initial
+    
+}
+@keyframes direction{
+    from{top: -450px}
+    to{top: 0px}
+}
+
+.formulario input{
+    
+    border-bottom: 10% solid grey;
+    border-radius: 10%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+.formulario button{
+        
+    border-radius: 15px;
+    background-color: rgb(243, 79, 177);
+    margin-bottom: 30px;
+        
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+.agrupar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circulo{
+    background-color: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: change-position;
+    animation-duration: 4s;
+
+}
+ 
+@keyframes change-position{
+    from {left: 500px;}
+    to {right: 0px; } 
+}
+
+header a{
+    color:rgb(75, 32, 218);
+    text-decoration: none;
+    padding-left: 20px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+}
+
